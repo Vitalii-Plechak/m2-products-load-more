@@ -1,0 +1,11 @@
+<?php /** @var $block \VPT\LoadMore\Block\LoadMore */ ?>
+
+<?php if ($block->isEnableInfinityScroll()): ?>
+    <script type="text/x-magento-init">
+        {
+            "*": {
+                "VPT_LoadMore/js/load-more": {}
+            }
+        }
+    </script>
+<?php endif; ?>

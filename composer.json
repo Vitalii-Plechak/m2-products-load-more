@@ -1,0 +1,27 @@
+{
+    "name": "vpt/module-load-more",
+    "version": "1.0.0",
+    "description": "Load more products module",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Vitalii Plechak",
+            "email": "vitalii.plechak@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-catalog": "104.0.*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VPT\\LoadMore\\": ""
+        }
+    }
+}
